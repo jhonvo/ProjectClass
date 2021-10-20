@@ -52,6 +52,7 @@ public class Project{
 
     public String elevatorPitch(){
         return getName() + " (" + getCost() + "): " + getDescription();
+        // return String.format("%s (%02f) %s", name, cost, description);
     }
 
 
